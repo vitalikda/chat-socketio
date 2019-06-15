@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 13px Helvetica, Arial;
+  padding: 50px;
+}
+
+form {
+  background: #000;
+  padding: 3px;
+  position: fixed;
+  bottom: 25px;
+  /* width: 100%; */
+  display: flex;
+}
+
+form input {
+  border: 0;
+  padding: 10px;
+  width: 20rem;
+  margin-right: .5%;
+}
+
+form button {
+  width: 5rem;
+  background: #37aee2;
+  border: none;
+  padding: 10px;
+  color: #fff;
+}
+
+#messages {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#messages li {
+  padding: 5px 10px;
+}
+
+#messages li:nth-child(odd) {
+  background: #eee;
+}
